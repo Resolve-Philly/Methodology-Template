@@ -15,4 +15,4 @@ devtools::install_github("Resolve-Philly/Methodology-Template-R")
 
 ## Template Preview
 
-![TemplatePreview](/ResolveMethodology/inst/rmarkdown/templates/template-name/skeleton/TemplatePreview.png)
+![TemplatePreview](inst/rmarkdown/templates/template-name/skeleton/TemplatePreview.png)
