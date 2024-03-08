@@ -1,0 +1,59 @@
+---
+title: "TKProjectName"
+author: "TKYourName | TKTitle"
+newsroom: "TKPartnerNewsroom"
+date: "TKDate"
+output: 
+  html_document:
+      toc: true
+      theme: journal
+      code_folding: hide
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+options(scipen = 999) #To ensure results are not returned in scientific notation
+library(tidyverse) #For easier coding
+library(ggplot2) #Make pretty charts
+
+```
+
+![logo](ResolveLogo.jpg)
+
+# Background
+
+## Goal of Analysis
+
+*Describe the goal of this analysis. Include your research questions and if there is a potential hypothesis.*
+
+## Glossary
+
+-   **Term** --- *Definition of term, with context and any decisions made around that term.*
+
+## Data
+
+-   [Dataset Name](URL) --- *Describe the data in the source.* \| [Metadata](URL)
+
+## Tools
+
+-   [R and RStudio](https://www.r-project.org/) --- For cleaning and analyzing the data. Below are the packages used specifically for this project. *This template pre-loads packages that are commonly used.* In the `setup` chunk are packages that are always run, no matter what.
+-   [Tool](URL) --- *Describe what the tool was used for*
+
+```{r libraries, include=FALSE}
+library(tidycensus) #For census data
+library(tidygeocoder) #For geocoding
+library(tigris) #Load Census TIGER/Line Shapefiles
+library(sf) #Load Simple Features for R - Ref:
+library(geosphere) #This does ~spacial trigonometry~ to calculate distance based on lat/lon
+library(sp) #spacial data library http://paldhous.github.io/NICAR/2023/r-sf-mapping-geo-analysis.html
+library(broom) #mapping functions
+census_api_key("75007795b5e9fa3e79f0c006845eb1c62c0a92c9")
+```
+
+#Cleaning
+
+*Below you will document all code processes, in or out of RStudio that you used to clean the data.*
+
+#Analysis
+
+*Include step-by-step instructions and code for your analysis of the data and explain the results that appear.*
