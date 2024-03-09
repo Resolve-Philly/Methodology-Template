@@ -6,8 +6,6 @@ Developed by Julie Christie, March 2024
 
 This package was developed with lots of references to [Bookdown](https://bookdown.org/yihui/rmarkdown/document-templates.html).
 
-You are welcome to use and replicate this package for your own use. This package was developed with lots of references to [Bookdown](https://bookdown.org/yihui/rmarkdown/document-templates.html).
-
 ## Instructions to download package
 
 1. Open RStudio and paste the below code in your console, one line at a time
