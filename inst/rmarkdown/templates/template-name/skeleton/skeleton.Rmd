@@ -41,7 +41,7 @@ library(ggplot2) #Make pretty charts
 
 ```{r libraries, include=FALSE}
 library(tidycensus) #For census data
-  census_api_key("75007795b5e9fa3e79f0c006845eb1c62c0a92c9")
+  census_api_key("KEY")
 library(tidygeocoder) #For geocoding
 library(tigris) #Load Census TIGER/Line Shapefiles
 library(sf) #Load Simple Features for R - Ref:

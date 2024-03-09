@@ -12,6 +12,7 @@ This package was developed with lots of references to [Bookdown](https://bookdow
 ```r
 if (!requireNamespace("devtools")) install.packages("devtools")
 devtools::install_github("Resolve-Philly/Methodology-Template-R")
+library(ResolveMethodology)
 ```
 2. Click the button to add a new file and select R Markdown
 3. Choose the `From Template` option and then select `Resolve Methodology Template` to get started
