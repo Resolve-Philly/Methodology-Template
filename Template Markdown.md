@@ -29,6 +29,11 @@
 > [!NOTE]
 > I recommend including the key add-ons that you will always use in your analysis, with a quick explanation of what that tool does. You can also create a section that lists common add-ons and what they do or API access keys you'll need to use them.
 
+### Limitations
+
+> [!Important]
+> Include clear limitations or caveats to your analysis here. For example, the data may have gaps or the code may only be able to handle so much.
+
 ## Cleaning
 
 > [!Important]
@@ -46,3 +51,7 @@ If you have to scroll to see the contents of a whole chunk, it is probably too l
 > [!Important]
 > Include step-by-step instructions and code for your analysis of the data and explain the results that appear. You can break out your analysis into subsections to make navigation easier.
 
+## Future Work or Questions
+
+> [!Important]
+> Make a note of questions this analysis left unanswered, follow-up work that could come in the future, or notes for how to revisit/improve the analysis in the future.
