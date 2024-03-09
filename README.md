@@ -4,7 +4,9 @@ This is a simple package that you can download to use Resolve Philly's standard 
 
 Developed by Julie Christie, March 2024
 
-This package was developed with lots of references to [Bookdown](https://bookdown.org/yihui/rmarkdown/document-templates.html).
+This package was developed with lots of [references to Bookdown](https://bookdown.org/yihui/rmarkdown/document-templates.html).
+
+This methodology is designed to work with a data diary. Access a [template for a data diary here](https://github.com/Resolve-Philly/Methodology-Template-R/blob/main/Data%20Diary%20Template.md).
 
 ## Instructions to download package
 
