@@ -4,7 +4,11 @@ This is a simple package that you can download to use Resolve Philly's standard 
 
 Developed by Julie Christie, March 2024
 
+<<<<<<< HEAD
 This package was developed with lots of references to [Bookdown](https://bookdown.org/yihui/rmarkdown/document-templates.html).
+=======
+You are welcome to use and replicate this package for your own use. This package was developed with lots of references to [Bookdown](https://bookdown.org/yihui/rmarkdown/document-templates.html).
+>>>>>>> 3bcd59766716491d1777d7c923d718c9a0f02c44
 
 ## Instructions to download package
 
