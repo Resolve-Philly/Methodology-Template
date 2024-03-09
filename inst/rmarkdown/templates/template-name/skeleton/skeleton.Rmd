@@ -41,19 +41,18 @@ library(ggplot2) #Make pretty charts
 
 ```{r libraries, include=FALSE}
 library(tidycensus) #For census data
+  census_api_key("75007795b5e9fa3e79f0c006845eb1c62c0a92c9")
 library(tidygeocoder) #For geocoding
 library(tigris) #Load Census TIGER/Line Shapefiles
 library(sf) #Load Simple Features for R - Ref:
-library(geosphere) #This does ~spacial trigonometry~ to calculate distance based on lat/lon
-library(sp) #spacial data library http://paldhous.github.io/NICAR/2023/r-sf-mapping-geo-analysis.html
+library(sp) #spacial data library, useful with: http://paldhous.github.io/NICAR/2023/r-sf-mapping-geo-analysis.html
 library(broom) #mapping functions
-census_api_key("75007795b5e9fa3e79f0c006845eb1c62c0a92c9")
 ```
 
-#Cleaning
+# Cleaning
 
 *Below you will document all code processes, in or out of RStudio that you used to clean the data.*
 
-#Analysis
+# Analysis
 
 *Include step-by-step instructions and code for your analysis of the data and explain the results that appear.*

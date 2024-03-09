@@ -1,11 +1,10 @@
 Package: ResolveMethodology
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Resolve Philadelphia Methodology Template (Title Case)
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
+Author: Julie Christie
+Maintainer: Julie Christie <julie@resolvephilly.org>
+Description: This package will give you a template R Markdown file to keep track of your analysis methodology.
 License: What license is it under?
 Encoding: UTF-8
 LazyData: true
