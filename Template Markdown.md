@@ -3,7 +3,9 @@
 # TKProjectName
 
 **Author:** TKYourName | TKTitle
+
 **Partnering Team:** TKPartnerTeam
+
 **Date:** TKDate
 
 ## Background
@@ -25,7 +27,7 @@
 -   [Tool](URL) --- *Describe what the tool was used for*
 
 > [!NOTE]
-> I recommend including the key add-ons that you will always use in your analysis, with a quick explanation of what that tool does. You can also create a section that lists common add-ons and what they do or API access keys you'll need to use them,
+> I recommend including the key add-ons that you will always use in your analysis, with a quick explanation of what that tool does. You can also create a section that lists common add-ons and what they do or API access keys you'll need to use them.
 
 ## Cleaning
 
@@ -35,7 +37,8 @@
 1. Describe what your code is doing in plain english, with a step number to help organize the process
 
 ```
-Put the code for that step in a chunk that can be separated out. If you have to scroll to see the contents of a whole chunk, it is probably too long and needs to be broken up into smaller steps.
+Put the code for that step in a chunk that can be separated out. 
+If you have to scroll to see the contents of a whole chunk, it is probably too long and needs to be broken up into smaller steps.
 ```
 
 ## Analysis
