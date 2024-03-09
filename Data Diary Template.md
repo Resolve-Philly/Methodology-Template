@@ -61,7 +61,7 @@ Figured out how to import data from the open data portal without having to downl
 - Carto API access is very difficult to use, so instead ended up learning how to set up the access URL to be the `.csv` download structure
 - Added instructions on how to do this to the reference guide
 
-> :+star: **Professional Development**
+> :star: **Professional Development**
 > This means I can go back and update up past projects with this more efficient data import process. I can collect data faster without using up storage space. This also applies moving forward.
 
 **To Do Next**
