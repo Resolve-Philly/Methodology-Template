@@ -19,8 +19,8 @@ This is a template structure for how Resolve communicates its data journalism wo
     - [Methodology Template](#methodology-template)
 - [Pure Markdown](#pure-markdown)
 
-> [!TIP]Sharing is Caring
-Anybody is welcome to use and customize this methodology structure for their work. See below to follow instructions to make your own template in various 
+> [!TIP]
+> Anybody is welcome to use and customize this methodology structure for their work. See below to follow instructions to make your own template in various 
 
 # The Methodology Template
 The structure of this methodology template may look similar to a science project lab report, or even a published study. That's because it's modeled afte those. The idea was to create a structure that is familiar not just for journalists, but for people from other industries too. 
@@ -78,8 +78,8 @@ This setup comes with some dependencies to take advantage of features in other e
 2. Add the [Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one) extension and enable it.
 3. Go to Markdown's settings and select **Extension keyboard shortcuts**
 4. Edit the command for **Markdown All in One: Create Table of Contents** and set the keybinding to `cmd+t+c` to set up a keyboard shortcut to add a table of contents to your markdown documents.
-   > [!TIP]
-   > You can also set **Markdown All in One: Update Table of Contents** to `cmd+u+t` to update the table of contents.
+> [!TIP]
+> You can also set **Markdown All in One: Update Table of Contents** to `cmd+u+t` to update the table of contents.
 
 ## Set Without Dependencies
 This removes a part of the snippet that assumes you have the Markdown All in One extension and set up a keyboard shortcut to generate tables of contents in your mardown files.
@@ -94,13 +94,13 @@ This removes a part of the snippet that assumes you have the Markdown All in One
 3. Save the file
 
 
-> [!TIP] Fun Fact
+> [!TIP]
 >The setup of the code snippets for Data Diaries will play well with [Todo Tree](https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-tree). The Data Diary has built-in spaces to mark your next steps. Todo Tree will automatically identify and show those to-dos without any customization.
 
 ## Customize the Code Snippet for Your Organization
 You can mix and match code snippets from this file as well as customize them to be specific for your organization. Below are the individual snippets, along with a list of how you can make them your own.
 
-> [!WARNING] Remember
+> [!WARNING]
 > Whenever you delete or add a placeholder, you should make sure that the numbers line up.
 
 ### Start a Data Diary
