@@ -1,0 +1,113 @@
+// Code snippets built by Julie Christie, Director of Data & Impact at Resolve Philly.
+// These templates are welcome to be used as-is, but can also be changed to fit the specific needs of your organization.
+{
+	// Start a blank data diary from scratch, that auto-populates the date.
+    // You can always change the date to what you need.
+	"Start a Data Diary": {
+		"prefix": "diary_new",
+		"body": [
+			"# ${1:Project Name}",
+			"",
+			"**Reporter:** ${2:Your Name}, ${3:Your Title}",
+			"",
+			"[Link to methodology](${4:Add the URL once you push to GitHub})",
+			"",
+			"${5:Add a table of contents by typing cmd+t+c}",
+			"## $CURRENT_YEAR",
+			"### $CURRENT_MONTH",
+			"#### $CURRENT_DATE $CURRENT_MONTH_NAME_SHORT, $CURRENT_YEAR",
+			"",
+			"**Work Completed**",
+			"- ${6: Describe what you've done today}",
+			"",
+            "> :star: **Professional Development**",
+            "> ${7: Note something you learned or figured out, and explain why it is important.}",
+            "",
+			"**To Dos**",
+			"- [ ] ${8: Write what you need to do next time}"
+		],
+		"description": "Data Diary header template"
+	},
+    // Start a new entry in your data diary for today
+	"New Data Diary Entry":{
+		"prefix": "diary_entry",
+		"body": [
+			"#### $CURRENT_DATE $CURRENT_MONTH_NAME_SHORT, $CURRENT_YEAR",
+			"**Work Completed**",
+			"- ${1:Describe what you've done today}",
+			"",
+            "> :star: **Professional Development**",
+            "> ${2: Note something you learned or figured out, and explain why it is important.}",
+            "",
+			"**To Dos**",
+			"- [ ] ${3:Write what you need to do next time.}"
+		],
+        "description": "Add entry to an existing Data Diary"
+	},
+    // Create the setup of a methodology template. Auto-populates with the current date.
+    // You can chagne the date to what is most appropriate for your project
+	"Methodology Template":{
+		"prefix": "methodology_Resolve",
+		"body": [
+			"![logo](${1:http://apidevdays.com/wp-content/uploads/2010/05/YourLogoHere.gif})",
+			"",
+			"# ${2: Your Project Name}",
+			"",
+			"**Author:** ${3: Your Name} | ${4:Your Title}",
+			"",
+			"**Partnering Team:** ${5:Partnering Newsroom, Organization, or Internal Department}",
+			"",
+			"**Date:** $CURRENT_DATE $CURRENT_MONTH_NAME_SHORT, $CURRENT_YEAR",
+			"",
+			"## Background",
+			"",
+			"### Goal of Analysis",
+			"",
+			"Describe the goal of this analysis. Include your research questions and if there is a potential hypothesis.",
+			"",
+			"### Glossary",
+			"",
+			"-   **Term** --- *Definition of term, with context and any decisions made around that term.*",
+			"",
+			"### Data",
+			"",
+			"-   [Dataset Name](URL) --- *Describe the data in the source.* | [Metadata](URL)",
+			"",
+			"### Tools",
+			"",
+			"-   [Tool](URL) --- *Describe what the tool was used for*",
+			"",
+			"> [!NOTE] I recommend including the key add-ons that you will always use in your analysis, with a quick explanation of what that tool does. You can also create a section that lists common add-ons and what they do, or API access keys you'll need to use them.",
+			"",
+			"### Limitations",
+			"",
+			"> [!IMPORTANT] Include clear limitations or caveats to your analysis here. For example, the data may have gaps or the code may only be able to handle so much.",
+			"",
+			"## Cleaning",
+			"",
+			"> [!IMPORTANT] Below you will document all code processes, in or out of any specific tool that you used to clean the data. You can break out your cleaning process into subsections to make navigation easier.",
+			"",
+			"1.  Describe what your code is doing in plain english, with a step number to help organize the process",
+			"",
+			"```",       
+			"// Put the code for that step in a chunk that can be separated out. ",
+			"// If you have to scroll to see the contents of a whole chunk, it might be too long and could be broken into smaller steps.",
+			"```",
+			"",
+			"## Analysis",
+			"",
+			"> [!IMPORTANT] Include step-by-step instructions and code for your analysis of the data and explain the results that appear. You can break out your analysis into subsections to make navigation easier.",
+			"",
+			"1.  Describe what your code is doing in plain english, with a step number to help organize the process",
+			"",
+			"```",       
+			"// Put the code for that step in a chunk that can be separated out. ",
+			"```",
+			"",
+			"## Future Work or Questions",
+			"",
+			"> [!IMPORTANT] Make a note of questions this analysis left unanswered, follow-up work that could come in the future, or notes for how to revisit/improve the analysis in the future."
+		],
+        "description": "Create a methodology outline"
+	}
+}
