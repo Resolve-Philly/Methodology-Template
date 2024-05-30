@@ -65,8 +65,8 @@ You can [fork this repository](https://docs.github.com/en/pull-requests/collabor
 - [ ] Change the output information so you can knit the methodology to your preferred filetype and style
 - [ ] Add in the packages your team should always use, as well as the common packages they'll often use
 - [ ] Plug in all the API keys you will need to use
-    > [!CAUTION]
-    > If you add API keys, passwords, or other protected iformation you don't want on the internet, do not publish your methodology publicly.
+> [!CAUTION]
+> If you add API keys, passwords, or other protected iformation you don't want on the internet, do not publish your methodology publicly.
 
 # VSCode Snippets for Methodology and Data Diaries
 This repo contains a `.code-snippet` file that you can use to create shortcuts to create the methodology and data diary templates in a `.md` file when using VSCode.
@@ -159,72 +159,72 @@ You can mix and match code snippets from this file as well as customize them to 
 <details>
     <summary>Methodology snippet</summary>
 
-    ```json
-    "Methodology Template":{
-    "prefix": "methodology_Resolve",
-    "body": [
-        "![logo](${1:http://apidevdays.com/wp-content/uploads/2010/05/YourLogoHere.gif})",
-        "",
-        "# ${2: Your Project Name}",
-        "",
-        "**Author:** ${3: Your Name} | ${4:Your Title}",
-        "",
-        "**Partnering Team:** ${5:Partnering Newsroom, Organization, or Internal Department}",
-        "",
-        "**Date:** $CURRENT_DATE $CURRENT_MONTH_NAME_SHORT, $CURRENT_YEAR",
-        "",
-        "## Background",
-        "",
-        "### Goal of Analysis",
-        "",
-        "Describe the goal of this analysis. Include your research questions and if there is a potential hypothesis.",
-        "",
-        "### Glossary",
-        "",
-        "-   **Term** --- *Definition of term, with context and any decisions made around that term.*",
-        "",
-        "### Data",
-        "",
-        "-   [Dataset Name](URL) --- *Describe the data in the source.* | [Metadata](URL)",
-        "",
-        "### Tools",
-        "",
-        "-   [Tool](URL) --- *Describe what the tool was used for*",
-        "",
-        "> [!NOTE] I recommend including the key add-ons that you will always use in your analysis, with a quick explanation of what that tool does. You can also create a section that lists common add-ons and what they do, or API access keys you'll need to use them.",
-        "",
-        "### Limitations",
-        "",
-        "> [!IMPORTANT] Include clear limitations or caveats to your analysis here. For example, the data may have gaps or the code may only be able to handle so much.",
-        "",
-        "## Cleaning",
-        "",
-        "> [!IMPORTANT] Below you will document all code processes, in or out of any specific tool that you used to clean the data. You can break out your cleaning process into subsections to make navigation easier.",
-        "",
-        "1.  Describe what your code is doing in plain english, with a step number to help organize the process",
-        "",
-        "```",       
-        "// Put the code for that step in a chunk that can be separated out. ",
-        "// If you have to scroll to see the contents of a whole chunk, it might be too long and could be broken into smaller steps.",
-        "```",
-        "",
-        "## Analysis",
-        "",
-        "> [!IMPORTANT] Include step-by-step instructions and code for your analysis of the data and explain the results that appear. You can break out your analysis into subsections to make navigation easier.",
-        "",
-        "1.  Describe what your code is doing in plain english, with a step number to help organize the process",
-        "",
-        "```",       
-        "// Put the code for that step in a chunk that can be separated out. ",
-        "```",
-        "",
-        "## Future Work or Questions",
-        "",
-        "> [!IMPORTANT] Make a note of questions this analysis left unanswered, follow-up work that could come in the future, or notes for how to revisit/improve the analysis in the future."
-    ],
-    "description": "Create a methodology outline"
-    }
-    ```
+```json
+"Methodology Template":{
+"prefix": "methodology_Resolve",
+"body": [
+    "![logo](${1:http://apidevdays.com/wp-content/uploads/2010/05/YourLogoHere.gif})",
+    "",
+    "# ${2: Your Project Name}",
+    "",
+    "**Author:** ${3: Your Name} | ${4:Your Title}",
+    "",
+    "**Partnering Team:** ${5:Partnering Newsroom, Organization, or Internal Department}",
+    "",
+    "**Date:** $CURRENT_DATE $CURRENT_MONTH_NAME_SHORT, $CURRENT_YEAR",
+    "",
+    "## Background",
+    "",
+    "### Goal of Analysis",
+    "",
+    "Describe the goal of this analysis. Include your research questions and if there is a potential hypothesis.",
+    "",
+    "### Glossary",
+    "",
+    "-   **Term** --- *Definition of term, with context and any decisions made around that term.*",
+    "",
+    "### Data",
+    "",
+    "-   [Dataset Name](URL) --- *Describe the data in the source.* | [Metadata](URL)",
+    "",
+    "### Tools",
+    "",
+    "-   [Tool](URL) --- *Describe what the tool was used for*",
+    "",
+    "> [!NOTE] I recommend including the key add-ons that you will always use in your analysis, with a quick explanation of what that tool does. You can also create a section that lists common add-ons and what they do, or API access keys you'll need to use them.",
+    "",
+    "### Limitations",
+    "",
+    "> [!IMPORTANT] Include clear limitations or caveats to your analysis here. For example, the data may have gaps or the code may only be able to handle so much.",
+    "",
+    "## Cleaning",
+    "",
+    "> [!IMPORTANT] Below you will document all code processes, in or out of any specific tool that you used to clean the data. You can break out your cleaning process into subsections to make navigation easier.",
+    "",
+    "1.  Describe what your code is doing in plain english, with a step number to help organize the process",
+    "",
+    "```",       
+    "// Put the code for that step in a chunk that can be separated out. ",
+    "// If you have to scroll to see the contents of a whole chunk, it might be too long and could be broken into smaller steps.",
+    "```",
+    "",
+    "## Analysis",
+    "",
+    "> [!IMPORTANT] Include step-by-step instructions and code for your analysis of the data and explain the results that appear. You can break out your analysis into subsections to make navigation easier.",
+    "",
+    "1.  Describe what your code is doing in plain english, with a step number to help organize the process",
+    "",
+    "```",       
+    "// Put the code for that step in a chunk that can be separated out. ",
+    "```",
+    "",
+    "## Future Work or Questions",
+    "",
+    "> [!IMPORTANT] Make a note of questions this analysis left unanswered, follow-up work that could come in the future, or notes for how to revisit/improve the analysis in the future."
+],
+"description": "Create a methodology outline"
+}
+```
 </details>
 
 - [ ] Change the logo at the top of the methodology
