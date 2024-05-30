@@ -20,7 +20,7 @@ This is a template structure for how Resolve communicates its data journalism wo
 - [Pure Markdown](#pure-markdown)
 
 > [!TIP]
-> Anybody is welcome to use and customize this methodology structure for their work. See below to follow instructions to make your own template in various 
+> Anybody is welcome to use and customize this methodology structure for their work. See below to follow instructions to make your own template in various ways.
 
 # The Methodology Template
 The structure of this methodology template may look similar to a science project lab report, or even a published study. That's because it's modeled afte those. The idea was to create a structure that is familiar not just for journalists, but for people from other industries too. 
